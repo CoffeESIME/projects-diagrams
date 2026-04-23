@@ -1,6 +1,7 @@
 import { nodes as scadaNodes, edges as scadaEdges } from './ScadaArchitecture/data'
 import { nodes as espNodes,   edges as espEdges   } from './EspWeatherStation/data'
 import { nodes as mqttNodes,  edges as mqttEdges  } from './MqttConfig/data'
+import { nodes as dbNodes,    edges as dbEdges    } from './DatabaseSchema/data'
 
 /**
  * Registro central de diagramas.
@@ -40,6 +41,17 @@ export const diagrams = [
     tags       : ['Mosquitto', 'mTLS', 'TLS', 'Certificados', 'Seguridad'],
     nodes      : mqttNodes,
     edges      : mqttEdges,
+    updatedAt  : '2026-04-23',
+  },
+  {
+    id         : 'scada-database-schema',
+    title: 'Esquema de Base de Datos SCADA',
+    description: 'Diagrama Entidad-Relación mostrando tablas relacionales (PostgreSQL) e hypertablas de alta ingesta (TimescaleDB).',
+    category   : 'Bases de Datos',
+    accentColor: '#8b5cf6',
+    tags       : ['PostgreSQL', 'TimescaleDB', 'ER Diagram', 'Relacional', 'Alarmas'],
+    nodes      : dbNodes,
+    edges      : dbEdges,
     updatedAt  : '2026-04-23',
   },
 ]

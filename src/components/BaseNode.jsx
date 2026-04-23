@@ -96,7 +96,7 @@ const BaseNode = memo(({ data, selected }) => {
       {/* Header */}
       <div className={`flex items-center gap-2 px-4 py-2 rounded-t-2xl bg-gradient-to-r ${cfg.headerGrad}`}>
         <span className="text-[9px] font-extrabold tracking-[0.18em] text-white/90 uppercase">
-          {cfg.tag}
+          {data.tag || cfg.tag}
         </span>
         <span title={status} className={`ml-auto w-2.5 h-2.5 rounded-full animate-pulse-led ${led}`} />
       </div>
