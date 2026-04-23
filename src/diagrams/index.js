@@ -1,5 +1,6 @@
 import { nodes as scadaNodes, edges as scadaEdges } from './ScadaArchitecture/data'
 import { nodes as espNodes,   edges as espEdges   } from './EspWeatherStation/data'
+import { nodes as mqttNodes,  edges as mqttEdges  } from './MqttConfig/data'
 
 /**
  * Registro central de diagramas.
@@ -28,6 +29,17 @@ export const diagrams = [
     tags       : ['ESP8266', 'MQTT', 'Node-RED', 'InfluxDB', 'Grafana'],
     nodes      : espNodes,
     edges      : espEdges,
+    updatedAt  : '2026-04-23',
+  },
+  {
+    id         : 'mqtt-security-config',
+    title      : 'Configuración de Seguridad MQTT',
+    description: 'Niveles de seguridad en Mosquitto: mTLS (8884), TLS con Let\'s Encrypt (8883) y conexiones en texto plano (1883).',
+    category   : 'Seguridad / Redes',
+    accentColor: '#f97316',
+    tags       : ['Mosquitto', 'mTLS', 'TLS', 'Certificados', 'Seguridad'],
+    nodes      : mqttNodes,
+    edges      : mqttEdges,
     updatedAt  : '2026-04-23',
   },
 ]
