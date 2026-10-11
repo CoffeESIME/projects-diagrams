@@ -1,24 +1,23 @@
 import { useState } from 'react'
 import { AnimatePresence } from 'framer-motion'
-import Gallery from './views/Gallery'
-import DiagramView from './views/DiagramView'
+import './analysis.css'
+import GraphRagHome from './views/GraphRagHome'
+import GraphRagStory from './views/GraphRagStory'
 
 export default function App() {
-  const [selected, setSelected] = useState(null)
+  const [selectedId, setSelectedId] = useState(null)
 
   return (
     <AnimatePresence mode="wait">
-      {selected ? (
-        <DiagramView
-          key="diagram"
-          diagram={selected}
-          onBack={() => setSelected(null)}
+      {selectedId ? (
+        <GraphRagStory
+          key={selectedId}
+          storyId={selectedId}
+          onBack={() => setSelectedId(null)}
+          onSelect={setSelectedId}
         />
       ) : (
-        <Gallery
-          key="gallery"
-          onSelect={setSelected}
-        />
+        <GraphRagHome key="home" onSelect={setSelectedId} />
       )}
     </AnimatePresence>
   )

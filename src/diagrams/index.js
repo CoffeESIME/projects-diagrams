@@ -2,6 +2,7 @@ import { nodes as scadaNodes, edges as scadaEdges } from './ScadaArchitecture/da
 import { nodes as espNodes,   edges as espEdges   } from './EspWeatherStation/data'
 import { nodes as mqttNodes,  edges as mqttEdges  } from './MqttConfig/data'
 import { nodes as dbNodes,    edges as dbEdges    } from './DatabaseSchema/data'
+import { nodes as umlNodes,   edges as umlEdges   } from './PythonClasses/data'
 
 /**
  * Registro central de diagramas.
@@ -52,6 +53,17 @@ export const diagrams = [
     tags       : ['PostgreSQL', 'TimescaleDB', 'ER Diagram', 'Relacional', 'Alarmas'],
     nodes      : dbNodes,
     edges      : dbEdges,
+    updatedAt  : '2026-04-23',
+  },
+  {
+    id         : 'python-factory-uml',
+    title: 'UML: Protocol Factory Pattern',
+    description: 'Diagrama de clases mostrando herencia y el patrón Factory para los drivers industriales (Modbus, OPC UA) en Python.',
+    category   : 'Arquitectura de Software',
+    accentColor: '#3b82f6',
+    tags       : ['UML', 'Python', 'Factory', 'POO', 'Drivers'],
+    nodes      : umlNodes,
+    edges      : umlEdges,
     updatedAt  : '2026-04-23',
   },
 ]
