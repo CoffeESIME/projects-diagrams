@@ -70,6 +70,12 @@ export default function GraphRagHome({ onSelect }) {
         ))}
       </section>
 
+      <section className="publication-entry" aria-label="Publication Assets">
+        <span>PUBLICATION ASSETS</span>
+        <a href="/social/fuzzy-graphrag-launch">Fuzzy GraphRAG · Public launch <LuArrowUpRight /></a>
+        <p>Tres piezas para publicación · idea, evidencia real y serendipia · 1080 × 1350</p>
+      </section>
+
       <section className="copy-lab">
         <div className="copy-title"><span className="eyebrow">{t("LISTO PARA COMPARTIR")}</span><h2>{t("Del diagrama")}<br />{t("a la conversación.")}</h2><p>{t("Una descripción base para presentar el proyecto en LinkedIn. Puedes copiarla y personalizar el cierre.")}</p></div>
         <div className="post-preview">

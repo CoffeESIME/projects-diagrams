@@ -1,0 +1,23 @@
+.publication-entry { margin: 0 clamp(24px, 7vw, 112px) 70px; padding: 32px 0; border-block: 1px solid var(--line); }
+.publication-entry > span { display: block; font-size: 12px; letter-spacing: .15em; color: var(--violet); font-weight: 700; }
+.publication-entry > a { display: flex; align-items: center; gap: 20px; width: fit-content; font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(30px, 4vw, 54px); color: var(--ink); text-decoration: none; margin: 10px 0; }
+.publication-entry > p { color: var(--muted); }
+.publication-page { padding: 32px 24px 60px; background: #dedad0; min-height: 100vh; }
+.publication-tools, .publication-provenance { max-width: 1080px; margin: 0 auto; }
+.publication-tools > a, .publication-actions a { color: var(--ink); text-underline-offset: 4px; }
+.publication-tools p { text-transform: uppercase; letter-spacing: .15em; font-size: 12px; margin: 32px 0 6px; }
+.publication-tools h1 { font-family: 'Instrument Serif', Georgia, serif; font-size: clamp(30px, 4vw, 48px); font-weight: 400; margin: 0 0 24px; }
+.publication-tools nav { display: flex; flex-wrap: wrap; gap: 8px; }
+.publication-tools nav a { padding: 12px 18px; color: var(--ink); border: 1px solid #aaa394; text-decoration: none; }
+.publication-tools nav a[aria-current] { background: #6143ad; color: #f3f0e7; border-color: #6143ad; }
+.publication-tools a:hover { text-decoration: underline; }
+.publication-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 28px; margin: 20px 0 28px; font-size: 14px; }
+.publication-actions span { margin-left: auto; color: #5d5851; }
+.publication-frame { display: block; width: 100%; max-width: 1080px; height: auto; margin: 0 auto; fill: #202336; font-family: 'DM Sans', 'Segoe UI', sans-serif; }
+.publication-frame .pub-display { font-family: 'Archivo Black', 'Bahnschrift', sans-serif; font-weight: 800; letter-spacing: -2px; }
+.publication-frame .pub-serif { font-family: 'Instrument Serif', Georgia, serif; letter-spacing: -1.5px; }
+.publication-provenance { padding-top: 24px; line-height: 1.6; overflow-wrap: anywhere; }
+.publication-provenance summary { cursor: pointer; }
+.publication-export { padding: 0; background: #f3f0e7; }
+@media (max-width: 600px) { .publication-page { padding: 24px 12px; } .publication-export { padding: 0; } .publication-actions span { margin-left: 0; } .publication-tools nav a { font-size: 13px; padding: 10px; } }
+@media print { .publication-tools, .publication-provenance { display: none; } .publication-page { padding: 0; } @page { size: 1080px 1350px; margin: 0; } }

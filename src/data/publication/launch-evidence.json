@@ -1,0 +1,551 @@
+{
+  "pathfinder": {
+    "export": "pathfinder_astr_nomo_ciego_to_abandono_de_lo_superficial_1791347443292",
+    "generatedAt": "2026-10-06T22:30:35.298221-06:00",
+    "resultCount": 5,
+    "uniqueCount": 5,
+    "routes": [
+      {
+        "id": "route-1-c39324b8f0ea",
+        "hops": 8,
+        "nodes": [
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:252",
+            "name": "Astrónomo ciego",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "name": "text_Tumblr_Post_-_159517803909html_a0cc15b3.txt",
+            "type": "Text"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1070",
+            "name": "Ausencia",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:883",
+            "name": "text_2ee2a56e.txt",
+            "type": "Text"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1826",
+            "name": "Duelo y Pérdida",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2167",
+            "name": "Warcry - Capitán Lawrence.mp3",
+            "type": "Audio"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "name": "Amor",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "name": "text_Tumblr_Post_-_190221726333html_c6ac4846.txt",
+            "type": "Text"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:829",
+            "name": "Abandono de lo superficial",
+            "type": "Concept"
+          }
+        ],
+        "edges": [
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:252",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "weight": 0.9,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1070",
+            "weight": 0.7,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1070",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:883",
+            "weight": 0.9,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:883",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1826",
+            "weight": 0.78,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1826",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2167",
+            "weight": 0.837,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2167",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "weight": 0.796,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "weight": 0.8,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:829",
+            "weight": 0.9,
+            "provenance": null
+          }
+        ]
+      },
+      {
+        "id": "route-2-c9c19feef1ff",
+        "hops": 8,
+        "nodes": [
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:252",
+            "name": "Astrónomo ciego",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "name": "text_Tumblr_Post_-_159517803909html_a0cc15b3.txt",
+            "type": "Text"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1070",
+            "name": "Ausencia",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:883",
+            "name": "text_2ee2a56e.txt",
+            "type": "Text"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1826",
+            "name": "Duelo y Pérdida",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1649",
+            "name": "Tom Waits - Flowers Grave.mp3",
+            "type": "Audio"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "name": "Amor",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "name": "text_Tumblr_Post_-_190221726333html_c6ac4846.txt",
+            "type": "Text"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:829",
+            "name": "Abandono de lo superficial",
+            "type": "Concept"
+          }
+        ],
+        "edges": [
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:252",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "weight": 0.9,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1070",
+            "weight": 0.7,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1070",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:883",
+            "weight": 0.9,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:883",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1826",
+            "weight": 0.78,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1826",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1649",
+            "weight": 0.765,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1649",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "weight": 0.653,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "weight": 0.8,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:829",
+            "weight": 0.9,
+            "provenance": null
+          }
+        ]
+      },
+      {
+        "id": "route-3-bf6db450d548",
+        "hops": 8,
+        "nodes": [
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:252",
+            "name": "Astrónomo ciego",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "name": "text_Tumblr_Post_-_159517803909html_a0cc15b3.txt",
+            "type": "Text"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1691",
+            "name": "Tristeza y Melancolía",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:761",
+            "name": "Metallica - Fade To Black.mp3",
+            "type": "Audio"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:168",
+            "name": "Resignación",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2167",
+            "name": "Warcry - Capitán Lawrence.mp3",
+            "type": "Audio"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "name": "Amor",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "name": "text_Tumblr_Post_-_190221726333html_c6ac4846.txt",
+            "type": "Text"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:829",
+            "name": "Abandono de lo superficial",
+            "type": "Concept"
+          }
+        ],
+        "edges": [
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:252",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "weight": 0.9,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1691",
+            "weight": 1,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1691",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:761",
+            "weight": 0.85,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:761",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:168",
+            "weight": 0.7138,
+            "provenance": "interactive_latent_explorer"
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:168",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2167",
+            "weight": 0.8,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2167",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "weight": 0.796,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "weight": 0.8,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:829",
+            "weight": 0.9,
+            "provenance": null
+          }
+        ]
+      },
+      {
+        "id": "route-4-22ccd7a81a77",
+        "hops": 8,
+        "nodes": [
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:252",
+            "name": "Astrónomo ciego",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "name": "text_Tumblr_Post_-_159517803909html_a0cc15b3.txt",
+            "type": "Text"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1691",
+            "name": "Tristeza y Melancolía",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:651",
+            "name": "Rafael Lechowski - De Paso por Lo Eterno (Canción del Extranjero).mp3",
+            "type": "Audio"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1826",
+            "name": "Duelo y Pérdida",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2167",
+            "name": "Warcry - Capitán Lawrence.mp3",
+            "type": "Audio"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "name": "Amor",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "name": "text_Tumblr_Post_-_190221726333html_c6ac4846.txt",
+            "type": "Text"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:829",
+            "name": "Abandono de lo superficial",
+            "type": "Concept"
+          }
+        ],
+        "edges": [
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:252",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "weight": 0.9,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1691",
+            "weight": 1,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1691",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:651",
+            "weight": 0.729,
+            "provenance": "interactive_latent_explorer"
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:651",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1826",
+            "weight": 0.844,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1826",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2167",
+            "weight": 0.837,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2167",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "weight": 0.796,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "weight": 0.8,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:829",
+            "weight": 0.9,
+            "provenance": null
+          }
+        ]
+      },
+      {
+        "id": "route-5-b212101441bd",
+        "hops": 8,
+        "nodes": [
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:252",
+            "name": "Astrónomo ciego",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "name": "text_Tumblr_Post_-_159517803909html_a0cc15b3.txt",
+            "type": "Text"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1691",
+            "name": "Tristeza y Melancolía",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:883",
+            "name": "text_2ee2a56e.txt",
+            "type": "Text"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1826",
+            "name": "Duelo y Pérdida",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2167",
+            "name": "Warcry - Capitán Lawrence.mp3",
+            "type": "Audio"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "name": "Amor",
+            "type": "Concept"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "name": "text_Tumblr_Post_-_190221726333html_c6ac4846.txt",
+            "type": "Text"
+          },
+          {
+            "id": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:829",
+            "name": "Abandono de lo superficial",
+            "type": "Concept"
+          }
+        ],
+        "edges": [
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:252",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "weight": 0.9,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2550",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1691",
+            "weight": 1,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1691",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:883",
+            "weight": 0.772,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:883",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1826",
+            "weight": 0.78,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:1826",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2167",
+            "weight": 0.837,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:2167",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "weight": 0.796,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:157",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "weight": 0.8,
+            "provenance": null
+          },
+          {
+            "source": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:471",
+            "target": "4:efba7236-ddba-4937-a2b8-5b780ed8279a:829",
+            "weight": 0.9,
+            "provenance": null
+          }
+        ]
+      }
+    ]
+  },
+  "serendipity": {
+    "export": "serendipity_path_1791325018734",
+    "generatedAt": "2026-10-06T22:16:58.733Z",
+    "nodes": [
+      {
+        "name": "Fundamentos",
+        "type": "Concept",
+        "weight": null
+      },
+      {
+        "name": "text_836fb8cc.txt",
+        "type": "Text",
+        "weight": 0.6
+      },
+      {
+        "name": "Intuición",
+        "type": "Concept",
+        "weight": 0.6
+      },
+      {
+        "name": "FB_IMG_1741149220668.jpg",
+        "type": "Image",
+        "weight": 0.8
+      },
+      {
+        "name": "Genialidad",
+        "type": "Concept",
+        "weight": 0.7
+      }
+    ],
+    "editorialContext": {
+      "text": "Omar Khayyam / Rubaiyat",
+      "image": "Srinivasa Ramanujan",
+      "source": "llm_explanation del export; contexto editorial, no nodos adicionales ni identificación independiente de los archivos"
+    }
+  }
+}
